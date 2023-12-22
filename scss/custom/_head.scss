@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'alice_in_wonderlandregular';
+  src: url('alice_in_wonderland_3-webfont.woff2') format('woff2'),
+       url('alice_in_wonderland_3-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+nav{
+    padding-top:20px;
+}
+nav a h1{
+    font-family: 'alice_in_wonderlandregular';
+    font-size: 3rem;
+    margin-top:-20px;
+    color:white;
+}
+img{
+    float:left;
+}
+
+.text.image.hold {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .left {
+    position: absolute;
+    top: 6%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+  }
+  .right {
+    position: absolute;
+    top: 6%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+  }
+
+  nav p{
+font-family:'arial', sans-serif;
+font-weight:bold;
+color:white;
+font-size:1.25rem;
+  }
+
+  @media only screen and (min-width: 360px) {
+  
+        nav p{
+            font-family:'arial', sans-serif;
+            font-weight:bold;
+            color:white;
+            font-size:1rem;
+              }
+
+    
+  }
+  @media only screen and (min-width: 400px) {
+    nav a h1{
+      font-family: 'alice_in_wonderlandregular';
+      font-size: 4rem;
+      margin-top:-20px;
+      text-align: center;
+  }
+
+  }
+
+  @media only screen and (min-width: 755px) {
+   nav h1{
+    font-size:3rem;
+   }
+   nav a h1{
+    font-family: 'alice_in_wonderlandregular';
+    font-size: 5rem;
+    margin-top:-20px;
+}
+  }

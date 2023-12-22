@@ -1,0 +1,209 @@
+body{
+    font-size: 12px;
+    
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.background-wrath{
+  background-color: $bright-red;
+}
+a:hover{
+  color:red;
+}
+a h2:hover{
+  color:red;
+}
+span{
+  font-size:3rem;
+  text-align: center;
+}
+
+
+
+
+
+  .fun-purp{
+    background-color:$fun-purp;
+  }
+  .text-burgundy {
+    color: #800020; /* Replace with your burgundy color code */
+  }
+  .welcome-bg{
+    /*background-image:url('../images/background-texture.png');
+    width: 100%;*/
+    background-image: url('../img/intro2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height:100%;
+    margin:0px;
+    padding:0px;}
+    
+    .nect-bg{
+      /*background-image:url('../images/background-texture.png');
+      width: 100%;*/
+      background-image: url('../img/next.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      height:100%;
+      margin:0px;
+      padding:0px;}
+    
+      h1{
+        font-family: 'alice_in_wonderlandregular';
+        font-size: 3rem;
+        margin-top:-20px;
+        color:white;
+    }
+    h2{
+     
+        font-family: 'alice_in_wonderlandregular';
+        font-size: 3rem;
+        margin-top:-20px;
+        color:white;}
+ 
+ 
+  
+  @media only screen and (max-width: 400px) {
+  
+  }
+  @media only screen and (min-width: 400px) {
+   
+
+   .welcome-bg{
+    /*background-image:url('../images/background-texture.png');
+    width: 100%;*/
+    background-image: url('../img/intro2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height:70%;
+    margin:0px;
+    padding:0px;}
+}
+
+@media only screen and (min-width: 430px) {
+  .next-bg{
+    /*background-image:url('../images/background-texture.png');
+    width: 100%;*/
+    background-image: url('../img/next.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height:80%;
+
+    margin:0px;
+    padding:0px;}
+   
+   }
+   @media only screen and (min-width: 540px) {
+    .welcome-bg{
+      /*background-image:url('../images/background-texture.png');
+      width: 100%;*/
+      background-image: url('../img/intro2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      height:90vh;
+      margin:0px;
+      padding:0px;
+  }
+    
+   }
+   @media only screen and (min-width: 600px) {
+   
+    .welcome-bg{
+      /*background-image:url('../images/background-texture.png');
+      width: 100%;*/
+      background-image: url('../img/intro2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      height:80%;
+      margin:0px;
+      padding:0px;
+  }
+  .next-bg{
+    /*background-image:url('../images/background-texture.png');
+    width: 100%;*/
+    background-image: url('../img/next.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height:60vh;
+
+    margin:0px;
+    padding:0px;}
+
+      
+   }
+   @media only screen and (min-width: 700px) {
+
+ 
+   
+   .welcome-bg{
+    /*background-image:url('../images/background-texture.png');
+    width: 100%;*/
+    background-image: url('../img/intro2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height:80%;
+    margin:0px;
+    padding:0px;
+}
+   }
+   
+   @media only screen and (min-width: 768px) {
+    .welcome-bg{
+      /*background-image:url('../images/background-texture.png');
+      width: 100%;*/
+      background-image: url('../img/intro2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      height:90%;
+      margin:0px;
+      padding:0px;
+  }
+  
+   }
+   @media only screen and (min-width:900px) {
+    
+        .welcome-bg{
+          /*background-image:url('../images/background-texture.png');
+          width: 100%;*/
+          background-image: url('../img/intro2.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: top center;
+          height:80%;
+          margin:0px;
+          padding:0px;
+      }
+   }
+   @media only screen and (min-width:1000px) {
+    
+   }
+   @media only screen and (min-width:1100px) {
+    .under-welcome{
+        background-color: $bright-red;
+        margin-top:-3px;
+    
+    }
+    .text-image-hold {
+        position: relative;
+        text-align: center;
+        color: black;
+        margin-top:60px;
+        
+      }
+   
+   }
+   @media only screen and (min-width:1200px) {
+    
+   }
+
